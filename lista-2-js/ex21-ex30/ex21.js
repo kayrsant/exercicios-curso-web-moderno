@@ -1,5 +1,3 @@
-/*Crie uma função que receba um array de números e retorne o menor número desse array.*/
-
 const menorNumero = numeros => {
     let menor = 9007199254740991
     for (let i = 0; i < numeros.length; i++) {

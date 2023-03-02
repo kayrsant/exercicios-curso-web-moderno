@@ -1,8 +1,3 @@
-/*Você está trabalhando numa aplicação pessoal de controle de despesas. Na tela principal, dessa
-aplicação, é possível adicionar produtos ou serviços, informando nome, categoria e preço.
-Uma funcionalidade que você está desenvolvendo no momento é a de somar o total de despesas.
-Crie uma função que receba um array de produtos e retorne o total de despesas.*/
-
 const despesasTotais = produto => {
     let total = 0
     for (let i = 0; i < produto.length; i++) {
